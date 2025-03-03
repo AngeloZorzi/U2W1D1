@@ -460,6 +460,26 @@ footer a {
   p {
     margin-top: 20px;
   }
+  /* ELEMENTI NELL' ASIDE */
+  aside h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+  aside div {
+    background-color: #e3e3e3;
+    border: 1px solid #c3c3c3;
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+  aside div p:last-child {
+    margin-bottom: 0;
+    font-size: 0.8em;
+    text-align: right;
+  }
 }
 @media screen and (min-width: 1200px) {
   html {
@@ -660,5 +680,12 @@ footer a {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+  }
+  aside div {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    width: 30%;
   }
 }
